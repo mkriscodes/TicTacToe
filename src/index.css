@@ -1,5 +1,5 @@
 h1{
-  color: rgb(247, 140, 215);
+  color: cyan;
 }
 .app {
   margin: 0;
@@ -9,7 +9,7 @@ h1{
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  background-color: antiquewhite;
+  background-color: black;
 }
 
 .gameboard {
@@ -17,7 +17,6 @@ h1{
   height: 300px;
   display: flex;
   flex-wrap: wrap;
-  border: solid 7px black;
 }
 
 .square {
@@ -48,7 +47,7 @@ h1{
 .cross:before, .cross:after {
   content: "";
   position: absolute;
-  background-color: rgb(247, 140, 215);
+  background-color: rgb(234, 22, 146);
 }
 
 .cross:before {
